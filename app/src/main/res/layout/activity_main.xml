@@ -4,9 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-
+    android:gravity="center"
+    android:padding="10dp"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/phoneNumEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전화 걸 폰번 입력"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/dialBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화걸기(DIAL)"/>
 
 
 </LinearLayout>
